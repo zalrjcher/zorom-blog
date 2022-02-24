@@ -28,9 +28,9 @@ CREATE TABLE `zrm_user_account`
     `register_ip`   varchar(50)  NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `uid_account_type_unique` (`uid`, `account_type`),
-    UNIQUE KEY `login_account_account_type_unique` (`login_account`, `account_type`),
+    UNIQUE KEY `login_account_account_type_unique` (`account`, `account_type`),
     KEY `uid_index` (`uid`),
-    KEY `login_account_index` (`login_account`)
+    KEY `login_account_index` (`account`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4 COMMENT ='用户账户信息表';
 
