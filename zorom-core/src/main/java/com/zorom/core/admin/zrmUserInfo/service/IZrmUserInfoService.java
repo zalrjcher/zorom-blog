@@ -1,6 +1,6 @@
-package com.zorom.core.service;
+package com.zorom.core.admin.zrmUserInfo.service;
 
-import com.zorom.core.entity.ZrmUserInfo;
+import com.zorom.core.admin.zrmUserInfo.entity.ZrmUserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author zalrjcher
- * @since 2022-02-24
+ * @since 2022-02-25
  */
 public interface IZrmUserInfoService extends IService<ZrmUserInfo> {
 

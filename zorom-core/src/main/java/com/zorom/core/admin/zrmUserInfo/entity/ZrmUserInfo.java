@@ -1,11 +1,9 @@
-package com.zorom.core.entity;
+package com.zorom.core.admin.zrmUserInfo.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 
 /**
  * <p>
@@ -13,10 +11,10 @@ import io.swagger.annotations.ApiModelProperty;
  * </p>
  *
  * @author zalrjcher
- * @since 2022-02-24
+ * @since 2022-02-25
  */
 @TableName("zrm_user_info")
-@ApiModel(value = "ZrmUserInfo对象", description = "用户基本信息表")
+
 public class ZrmUserInfo implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -24,27 +22,41 @@ public class ZrmUserInfo implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    @ApiModelProperty("昵称")
+    /**
+     * 昵称
+     */
     private String nickName;
 
-    @ApiModelProperty("用户头像")
+    /**
+     * 用户头像
+     */
     private String avatar;
 
     private Integer gender;
 
-    @ApiModelProperty("年龄")
+    /**
+     * 年龄
+     */
     private Integer age;
 
-    @ApiModelProperty("电话")
+    /**
+     * 电话
+     */
     private String phone;
 
-    @ApiModelProperty("微信号")
+    /**
+     * 微信号
+     */
     private String wechat;
 
-    @ApiModelProperty("邮箱")
+    /**
+     * 邮箱
+     */
     private String email;
 
-    @ApiModelProperty("备注")
+    /**
+     * 备注
+     */
     private String remark;
 
     public Long getId() {

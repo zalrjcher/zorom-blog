@@ -1,7 +1,8 @@
-package com.zorom.core.mapper;
+package com.zorom.core.admin.zrmUserInfo.mapper;
 
-import com.zorom.core.entity.ZrmUserInfo;
+import com.zorom.core.admin.zrmUserInfo.entity.ZrmUserInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -9,8 +10,9 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author zalrjcher
- * @since 2022-02-24
+ * @since 2022-02-25
  */
+@Mapper
 public interface ZrmUserInfoMapper extends BaseMapper<ZrmUserInfo> {
 
 }

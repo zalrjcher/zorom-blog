@@ -1,4 +1,4 @@
-package com.zorom.core.controller;
+package com.zorom.core.admin.zrmUserInfo.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,10 +11,10 @@ import org.springframework.stereotype.Controller;
  * </p>
  *
  * @author zalrjcher
- * @since 2022-02-24
+ * @since 2022-02-25
  */
 @Controller
-@RequestMapping("/zrm-user-info")
+@RequestMapping("/zrmUserInfo/zrm-user-info")
 public class ZrmUserInfoController {
 
 }

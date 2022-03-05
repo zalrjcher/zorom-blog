@@ -1,8 +1,8 @@
-package com.zorom.core.service.impl;
+package com.zorom.core.admin.zrmUserInfo.service.impl;
 
-import com.zorom.core.entity.ZrmUserInfo;
-import com.zorom.core.mapper.ZrmUserInfoMapper;
-import com.zorom.core.service.IZrmUserInfoService;
+import com.zorom.core.admin.zrmUserInfo.entity.ZrmUserInfo;
+import com.zorom.core.admin.zrmUserInfo.mapper.ZrmUserInfoMapper;
+import com.zorom.core.admin.zrmUserInfo.service.IZrmUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author zalrjcher
- * @since 2022-02-24
+ * @since 2022-02-25
  */
 @Service
 public class ZrmUserInfoServiceImpl extends ServiceImpl<ZrmUserInfoMapper, ZrmUserInfo> implements IZrmUserInfoService {

@@ -21,6 +21,11 @@
             <artifactId>zorom-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.zorom</groupId>
+            <artifactId>zorom-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
